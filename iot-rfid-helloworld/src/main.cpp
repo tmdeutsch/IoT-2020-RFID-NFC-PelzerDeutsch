@@ -6,7 +6,7 @@
 const int RST_PIN = 22;  // Reset pin
 const int SS_PIN = 21;   // Slave select pin
 
-#define PIN_OUT1 33
+#define PIN_OUT1 33  // LEDs
 #define PIN_OUT2 26
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance
